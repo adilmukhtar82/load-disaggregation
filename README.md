@@ -1,12 +1,12 @@
 # Load Disaggregation Using Machine Learning
 
-This repository contains the implementation of a load disaggregation framework using various machine learning models. The framework focuses on predicting appliance-level energy consumption from aggregated household energy data. By leveraging temporal dependencies, cyclic features, and advanced regression models, this project aims to address the challenges of energy disaggregation in real-world scenarios.
+This repository contains the implementation of a load disaggregation evaluation framework using various machine learning models. The framework focuses on predicting appliance-level energy consumption from aggregated household energy data. 
 
 ## Overview
 
 ### Objective
 
-The primary goal of this project is to accurately predict the power consumption of individual appliances in a household using aggregated load data. This is achieved by:
+The primary goal is to accurately predict the power consumption of individual appliances in a household using aggregated load data. This is achieved by (so far):
 
 - Implementing a sliding window approach to model temporal dependencies.
 - Training and evaluating multiple machine learning models for multi-output regression.
@@ -22,5 +22,6 @@ The primary goal of this project is to accurately predict the power consumption 
   - Random Forest
   - Support Vector Machines (SVM)
   - Artificial Neural Networks (ANN)
-- **Evaluation:** Comprehensive evaluation using RMSE and MAE metrics, with detailed visualizations of predictions vs. actuals.
-- **Future Extensions:** Integration of semantic information (e.g., weather data, occupancy) and district-level disaggregation.
+- **Evaluation:** evaluation using RMSE and MAE metrics, with visualizations of predictions vs. actuals.
+
+- **Future Extensions:** Integration of semantic information (e.g., weather data, occupancy, geospatial) and district-level disaggregation.
