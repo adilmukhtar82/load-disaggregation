@@ -14,8 +14,8 @@ The primary goal is to accurately predict the power consumption of individual ap
 
 ### Key Features
 
-- **Data Preprocessing:** Sliding window creation, cyclic feature engineering, and time-series data splitting for effective training and evaluation.
-- **Model Training:** Training a range of regression models, including:
+- **Data preprocessing:** Sliding window creation, cyclic feature engineering, and time-series data splitting for effective training and evaluation.
+- **Model training:** Training a range of regression models, including:
   - Linear Regression
   - K-Nearest Neighbors (KNN)
   - XGBoost
@@ -24,4 +24,4 @@ The primary goal is to accurately predict the power consumption of individual ap
   - Artificial Neural Networks (ANN)
 - **Evaluation:** evaluation using RMSE and MAE metrics, with visualizations of predictions vs. actuals.
 
-- **Future Extensions:** Integration of semantic information (e.g., weather data, occupancy, geospatial) and district-level disaggregation.
+- **Future directions:** Integration of semantic information (e.g., weather data, occupancy, geospatial) and district-level disaggregation.
